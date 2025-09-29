@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.bmaster]
+@="BlockMaster.File"
+
+[HKEY_CURRENT_USER\Software\Classes\BlockMaster.File]
+@="Block Master Project File"
+
+[HKEY_CURRENT_USER\Software\Classes\BlockMaster.File\DefaultIcon]
+@="C:\\Program Files\\BLOCKMASTER\\bmaster.ico"
+
+[HKEY_CURRENT_USER\Software\Classes\BlockMaster.File\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\BlockMaster.File\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\BlockMaster.File\shell\open\command]
+@="\"C:\\Program Files\\BLOCKMASTER\\BLOCK.exe\" \"%1\""
